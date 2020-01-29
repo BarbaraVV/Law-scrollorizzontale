@@ -1,0 +1,313 @@
+html, body {
+    background-color: #D2D2D2;
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    position: fixed;
+}
+
+/*POLICY*/
+
+.policy {
+    padding-left: 1.5%;
+    padding-right: 3%;
+}
+
+.textpolicy {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 2.6rem;
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 9%;
+}
+
+.shape1 {
+  display: inline-block;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  padding-left: 0.5rem;
+  padding-right: 1rem;
+  position: relative;
+  transform: skew(-15deg);
+  border-radius: 0.5rem;
+  border: 2px solid;
+  border-color: #000000;
+  line-height: 3rem;
+  max-width: 100%;
+  font-family: 'Cormorant Infant', serif; font-weight: 400; font-style: italic;
+}
+
+.shape2 {
+  display: inline-block;
+  transform: skew(15deg);
+}
+
+.extracted {
+  font-family: 'Work Sans', sans-serif; 
+  font-weight: 400;
+  font-size: 1.5rem;
+  text-align: left;    
+  margin: 0;
+  padding-top: 3%;
+}
+
+
+/*QUESTIONS*/
+
+.scroll {
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+}
+
+#box {
+    background-color: #7135b6;
+    color: #D2D2D2;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.boxsex {
+    width: 80vw;
+}
+
+.boxgen {
+    width: 50vw;
+}
+
+.boxbutt {
+    width: 70vw;
+}
+
+.boxnipple {
+    width: 60vw;
+}
+
+.title {
+    font-family: 'Cormorant Infant', serif; font-weight: 400; font-style: italic;
+    font-size: 4rem;
+    padding-top: 0.5rem;
+}
+
+.textsex {
+    padding-top: 5.5rem;
+    padding-bottom: 8.5rem;
+}
+
+.textgen {
+    padding-top: 15rem;
+    padding-bottom: 17rem;
+}
+
+.textbutt {
+    padding-top: 4.5rem;
+    padding-bottom: 8rem;
+}
+
+.textnipple1 {
+    padding-top: 3.5rem;
+    padding-bottom: 4.5rem;
+}
+
+.textnipple2 {
+    padding-top: 3.5rem;
+    padding-bottom: 9.5rem;
+}
+
+.question {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 2rem;
+    padding-bottom: 1rem;
+}
+
+img {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 1.5rem;
+}
+
+.pepper {
+    margin-left: 1rem;
+}
+
+.peach1 {
+    margin-left: 0.4rem;
+    margin-right: 0.2rem;
+}
+
+.peach {
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+}
+
+/*GAPS*/
+
+.gap {
+    padding: 0rem 20rem;
+}
+
+.gap0 {
+    width: 100vw;
+}
+
+.gapcolor {
+    width: 15vw;
+    background-color: #7135b6; 
+}
+
+.gapfinale {
+    width: 100vw;
+    background-color: #D2D2D2;
+    font-family: 'Work Sans', sans-serif; font-weight: 500;
+    font-size: 4rem;
+}
+
+.cormorant {
+    font-family: 'Cormorant Infant', serif; font-weight: 400; font-style: italic;
+    font-size: 4rem;
+}
+
+.gallery {
+    margin-top: 11rem;
+    text-align: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+  padding left: 1rem;
+  padding-right: 3rem;
+  font-family: 'Work Sans', sans-serif; 
+  font-size: 16px;
+}
+
+#changefont1 {
+    font-family: 'Cormorant Infant', serif; 
+    font-weight: 400; 
+    font-style: italic;
+}
+
+/*MISURA TABLET*/
+
+@media screen and (max-width: 768px){
+    .textpolicy {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 2rem;
+    text-align: left;
+    padding-bottom: 26%;
+ }
+    .shape1 {
+    display: inline-block;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 0.5rem;
+    padding-right: 0.8rem;
+    position: relative;
+    transform: skew(-15deg);
+    border-radius: 0.5rem;
+    border: 1.5px solid;
+    border-color: #000000;
+    line-height: 2.5rem;
+    max-width: 100%;
+    font-family: 'Cormorant Infant', serif; font-weight: 400; font-style: italic;
+ }
+    
+.shape2 {
+    display: inline-block;
+    transform: skew(10deg);
+ }
+
+.extracted {
+    font-family: 'Work Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 1.4rem;
+    text-align: left; 
+    margin: 0;
+    padding-top: 6%;
+ }
+    
+.gap {
+    padding: 0rem 10rem;
+ }
+    
+.title {
+    font-family: 'Cormorant Infant', serif; font-weight: 400; font-style: italic;
+    font-size: 2.5rem;
+    padding-top: 10rem;
+ }
+    
+.question {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+ }
+    
+
+}
+
+/*MISURA MOBILE*/
+@media screen and (max-width: 480px){
+    .textpolicy {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 1.2rem;
+    text-align: left;
+    padding-bottom: 26%;
+}
+    .shape1 {
+    display: inline-block;
+    padding-top: 0.1rem;
+    padding-bottom: 0rem;
+    padding-left: 0.5rem;
+    padding-right: 0.6rem;
+    position: relative;
+    transform: skew(-15deg);
+    border-radius: 0.3rem;
+    border: 1.3px solid;
+    border-color: #000000;
+    line-height: 1.2rem;
+    max-width: 100%;
+    font-family: 'Cormorant Infant', serif; font-weight: 400; font-style: italic;
+ }
+    
+.shape2 {
+    display: inline-block;
+    transform: skew(10deg);
+ }
+
+.extracted {
+    font-family: 'Work Sans', sans-serif; 
+    font-weight: 400;
+    font-size: 0.8rem;
+    text-align: left;   
+    margin: 0;
+    padding-top: 7%;
+ }
+    
+.gap {
+    padding: 0rem 5rem;
+ }
+    
+.title {
+    font-family: 'Cormorant Infant', serif; font-weight: 400; font-style: italic;
+    font-size: 1.3rem;
+    padding-top: 5rem;
+ }
+    
+.question {
+    font-family: 'Work Sans', sans-serif; font-weight: 400;
+    font-size: 0.8rem;
+    padding-bottom: 1rem;
+ }
+
+}
